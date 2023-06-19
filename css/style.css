@@ -82,7 +82,7 @@ li{
 
 .contaner1 ::before{
     content: "";
-    background: url("/img/background.jpg") no-repeat center center/cover ;
+    background: url("./img/background.jpg") no-repeat center center/cover ;
     position: absolute;
     filter: opacity(0.5) drop-shadow(0 0 rgb(29, 3, 3));
     top: 0px;
