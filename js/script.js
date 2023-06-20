@@ -1,4 +1,7 @@
-
+const loader= document.querySelector(".loadingPage");
+window.addEventListener("load",function () {
+    loader.style.display="none"
+})
 
 
 let myButton =document.getElementById("myBtn");
