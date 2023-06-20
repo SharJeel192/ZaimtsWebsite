@@ -400,9 +400,6 @@ background:#5c35b9;
  
   
   @media only screen and (max-width: 624px) {
-      .loadingPage{
-        display: none;
-    }
     .web {
      flex-direction: column;
      justify-content: center;
