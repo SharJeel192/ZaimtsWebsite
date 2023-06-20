@@ -1,21 +1,5 @@
 
-const loader= document.querySelector(".loadingPage");
-window.addEventListener("load",function () {
-    showPage();
-})
-function showPage() {
-    const timerlimit = 5;
-    i=0;
-    const timer= setInterval(function () {
-        i++;
-        if (i == timerlimit) {
-            clearInterval(timer)
-            loader.style.display="none"
-        }
-        console.log(i)
 
-    },1000)
-}
 
 let myButton =document.getElementById("myBtn");
 window.onscroll =function(){
