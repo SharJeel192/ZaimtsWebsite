@@ -12,7 +12,7 @@ function showPage() {
             clearInterval(timer)
             loader.style.display="none"
         }
-        console.log(i);
+      
         
 
     },1000)
